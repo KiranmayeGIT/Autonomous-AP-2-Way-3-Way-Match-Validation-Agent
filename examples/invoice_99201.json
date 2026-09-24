@@ -1,0 +1,32 @@
+{
+  "invoice_header": {
+    "invoice_num": "INV-99201",
+    "vendor_name": "Apex Industrial Supplies",
+    "vendor_site": "US_EAST_AP",
+    "po_number": "PO-883401",
+    "currency": "USD",
+    "terms": "Net 30"
+  },
+  "invoice_lines": [
+    {
+      "line_num": 1,
+      "item_id": "SKU-44091",
+      "description": "Industrial Ball Bearings 50mm",
+      "qty_invoiced": 100,
+      "unit_price_invoiced": 12.80,
+      "line_total_invoiced": 1280.00
+    }
+  ],
+  "oracle_po_data": {
+    "po_header": { "po_num": "PO-883401", "status": "OPEN", "terms": "Net 30", "currency": "USD", "match_type": "3-WAY" },
+    "po_lines": [
+      { "line_num": 1, "item_id": "SKU-44091", "qty_ordered": 100, "unit_price_agreed": 12.50, "line_total_ordered": 1250.00 }
+    ]
+  },
+  "oracle_rcv_data": {
+    "receipt_num": "RCV-40019",
+    "lines": [
+      { "line_num": 1, "item_id": "SKU-44091", "qty_received": 100, "qty_accepted": 100 }
+    ]
+  }
+}
